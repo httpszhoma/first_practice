@@ -1,0 +1,55 @@
+.ninth-page {
+    display: flex;
+    gap: 50px;
+}
+.ninth-page .left-site {
+    width: 40%;
+}
+.ninth-page .head-element {
+    width: 80%;
+    align-items: end;
+}
+.ninth-page .right-site .our-service {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.ninth-page .main-content9 {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+}
+.ninth-page .main-content9 .left-site9 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 48%;
+}
+.ninth-page .main-content9 h1{
+    color: #191919;
+
+}
+.ninth-page .main-content9 p{
+    color: #605e5d;
+
+}
+.ninth-page .right-site9{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 48%;
+
+}
+.ninth-page .right-site9 .blogs{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.ninth-page .right-site9 .blogs .texts{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+

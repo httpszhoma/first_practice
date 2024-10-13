@@ -1,0 +1,90 @@
+@media (max-width: 1800px) and (min-width: 1200px) {
+    .main-content div:nth-child(3) .text-shadow {
+        font-size: 100px;
+    }
+    .map-and-contact .title .text-shadow {
+        text-align: start;
+        font-size: 100px;
+    }
+}
+@media (max-width: 1200px) {
+    .all-content {
+       flex-wrap: wrap;
+    }
+
+    .title .main-title {
+        font-size: 100px;
+    }
+    .text-shadow{
+        font-size: 100px;
+    }
+    
+    .main-content div:nth-child(3) .text-shadow {
+        font-size: 50px;
+    }
+    .map-and-contact .title .text-shadow {
+        text-align: start;
+        font-size: 70px;
+    }
+    .header .right-icons{
+        display: none;
+    }
+    .logo{
+        display: none;
+    }
+    .header .left-navbar .head-element {
+        display: flex;
+        gap: 30px;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+    .header .left-navbar .tail-element {
+        display: flex;
+        gap: 30px;
+        width: 100%;
+        margin-left: 0;
+        justify-content: center;
+
+    }
+    .map-and-contact .title .text-shadow {
+        text-align: start;
+        font-size: 50px;
+        top: -10px;
+    }
+
+
+
+
+}
+@media (max-width: 800px){
+    .main-content div:nth-child(3) .main-title {
+        font-size: 50px;
+    }
+    .text-button {
+        display: none;
+    }
+    .main-content .title .text-shadow {
+      display: none;
+    }
+
+    .title .main-title {
+        font-size: 50px;
+    }
+    .text-shadow{
+        font-size: 50px;
+    }
+}
+@media (max-width:600px) {
+    .union-img{
+        display: block;
+    }
+    .left-navbar p{
+        display: none;
+    }
+}
+
+
+

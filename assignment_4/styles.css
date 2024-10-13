@@ -1,0 +1,346 @@
+@font-face {
+    font-family: "UF1";
+    src: url("fonts/UF1.ttf");
+}
+
+@font-face {
+    font-family: "usually-font";
+    src: url("fonts/Usually-font-Bold.otf");
+}
+body{
+    background: linear-gradient(180deg, #0e141c 0%, #0a0f14 100%);
+
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    font-family: "UF1", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #ffffff;
+}
+.union-img{
+    display: none;
+}
+
+.all-page {
+
+    width: 100%;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    flex-direction: column;
+    gap: 130px;
+}
+
+.header {
+    display: flex;
+    width: 100%;
+}
+.header .left-navbar {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 20px;
+}
+.header .left-navbar .head-element {
+    display: flex;
+    gap: 30px;
+    width: 50%;
+    align-items: end;
+}
+
+.header .left-navbar .tail-element {
+    display: flex;
+    gap: 30px;
+    width: 50%;
+    margin-left: 8%;
+}
+.header .left-navbar .tail-element p {
+    font-size: 18px;
+}
+.header .left-navbar p {
+    cursor: pointer;
+}
+.header .left-navbar p:hover {
+    color: #d1c12b;
+    transition: 150ms;
+}
+.header .right-icons {
+    display: flex;
+    justify-content: end;
+    align-items: start;
+    gap: 5px;
+}
+.header .right-icons img {
+    width: 20px;
+}
+.title {
+    display: flex;
+    flex-direction: column;
+    gap: 55px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.title img {
+    width: 20%;
+}
+.title .main-title {
+    font-family: "usually-font";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 130px;
+    line-height: 113px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    z-index: 300;
+}
+.text-shadow {
+    font-family: "Usually-font";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 160px;
+    line-height: 148px;
+    text-align: center;
+    text-transform: uppercase;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    top: 115px;
+    color: #1f252d;
+}
+.catalog-button {
+    width: 130px;
+    background-color: transparent;
+    border-color: #d1c12b;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 30px;
+    padding: 10px 20px;
+    color: #d1c12b;
+    display: flex;
+    gap: 10px;
+    box-shadow: 0px 4px 10px #d1c12b;
+    margin-top: 100px;
+}
+.button-div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+}
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    width: 100%;
+    margin-top: 200px;
+}
+.main-content .title {
+    width: 100%;
+    justify-content: start;
+    align-items: start;
+}
+.main-content .title .main-title {
+    font-family: "UF1";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 100px;
+    text-transform: uppercase;
+
+    color: #ffffff;
+}
+.main-content .title .text-shadow {
+    top: -30px;
+    left: 30px;
+    font-size: 110px;
+    letter-spacing: 20px;
+}
+.main-image {
+    background-image: url(images/main-image.svg);
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-button {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 20%;
+    text-align: center;
+    margin-left: 40%;
+
+    margin-top: 50px;
+}
+.text-button .some-text {
+    font-size: 15px;
+}
+.text-button .button-div {
+    align-items: center;
+}
+
+.text-button .button-div .catalog-button {
+    margin-top: 0;
+}
+.main-content .title:nth-child(3) {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.main-content div:nth-child(3) .main-title {
+    font-size: 80px;
+}
+
+.main-content div:nth-child(3) .text-shadow {
+    font-size: 140px;
+    top: -50px;
+}
+
+.carts {
+    display: flex;
+    width: 100%;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.actual {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+}
+.cart-item {
+    width: 280px;
+    display: flex;
+    background-color: #1f252d;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 20px;
+}
+.cart-item img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.show-more {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    width: 80%;
+}
+
+.show-link {
+    text-decoration: underline;
+}
+.cart-item p {
+    text-align: start;
+}
+.cart-item .text-row p {
+    text-align: start;
+}
+
+.cart-item .text-row {
+    display: flex;
+    gap: 32%;
+}
+.map-and-contact {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 130px;
+}
+.map-and-contact .title .main-title {
+    font-size: 70px;
+}
+
+.map-and-contact .title .text-shadow {
+    text-align: start;
+    font-size: 140px;
+    top: -10px;
+}
+.all-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+.map-image{
+    width: 80%;
+}
+
+.all-content .right-icons{
+    gap: 10px;
+}
+.contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+}
+.contacts .right-icons {
+    justify-content: center;
+    display: flex;
+}
+.footer-div{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    flex-wrap: wrap;
+}
+
+.footer .texts {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer .texts p {
+    font-size: 15px;
+    text-align: start;
+}
+.footer .icon-and-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer .icon-and-text p {
+    font-size: 15px;
+    text-align: center;
+}
+
+

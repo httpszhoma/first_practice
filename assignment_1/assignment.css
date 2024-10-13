@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: #f0f0f0;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 100%;
+    max-width: 600px;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 5px solid rgb(82, 66, 66);
+    padding: 20px;
+}
+
+.header-text {
+    font-family: "Arial", sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    background-color: lightblue;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.registration-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+}
+
+.form-group {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    padding: 5px;
+}
+
+.label {
+    flex: 1;
+    border: 1px solid #333;
+    background-color: lightcyan;
+    padding: 5px;
+}
+
+.input-field {
+    flex: 2;
+    border: 1px solid #333;
+    padding: 5px;
+    background-color: lightcyan;
+}
+
+.text-input {
+    width: 100%;
+    padding: 5px;
+}
+
+.textarea-input {
+    width: 100%;
+    resize: vertical;
+    min-height: 40px;
+    max-height: 100px;
+    padding: 5px;
+}
+.df{
+    display: flex;
+    gap: 5px;
+}
+.vertical-flex{
+display: flex;
+flex-direction: column;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    height: 60px;
+}
+button{
+    width: 25%;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}

@@ -1,0 +1,140 @@
+body {
+    display: flex;
+    gap: 130px;
+    flex-direction: column;
+}
+.secound-page {
+    display: flex;
+    width: 100%;
+    gap: 10%;
+    justify-content: center;
+}
+
+.secound-page .left-site {
+    position: relative;
+}
+.rectangle {
+    border: 4px;
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    border-color: #ff4d01;
+    border-style: solid;
+    width: 204px;
+    height: 204px;
+}
+
+.secound-page .right-site {
+    width: 42%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.all-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50%;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+.about-us {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
+
+    color: #ff4d01;
+}
+ .a-team {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 62px;
+
+    color: #191919;
+}
+
+.all-text .lorem-text {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+
+    color: #605e5d;
+}
+.all-element {
+    display: flex;
+    justify-content: space-between;
+
+}
+.achievements {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.all-element .informations {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ .black-text {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+
+    color: #191919;
+}
+.orange-char {
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+
+    color: #ff4d01;
+}
+ .title{
+    color: #191919;
+}
+
+.our-company{
+    border: black solid 2px;
+    width: 40%;
+    padding: 5%;
+    color: black;
+    background-color: transparent;
+    font-size: 18px;
+    
+}
+
+.buttons {
+    display: flex;
+    gap: 30px;
+}
+.buttons .get-quote {
+    padding: 25px;
+    font-size: 18px;
+}
+.buttons .our-service{
+    padding: 25px;
+    font-size: 18px;
+    background-color: transparent;
+    border-style: solid;
+    border-color: #ffffff;
+}
+
+
+

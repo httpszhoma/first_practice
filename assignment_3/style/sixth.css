@@ -1,0 +1,17 @@
+.sixth-page .all-element{
+    gap: 15%;
+    justify-content: start;
+}
+.sixth-page .rectangle{
+    bottom: -20px;
+    right: -20px;
+    top: auto;
+    left: auto;
+    width: 280px;
+    height: 280px;
+  
+   
+}
+.sixth-page .left-site{
+    position: relative;
+}

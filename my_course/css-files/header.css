@@ -1,0 +1,60 @@
+header {
+    background-color: black;
+    height: 85px;
+    display: flex;
+    justify-content: space-between; /* Центрирование по горизонтали */
+    align-items: center;
+    position: fixed;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+header div {
+    height: 85px;
+    display: flex;
+    align-items: center; /* Центрирование по вертикали */
+}
+
+.left-site {
+    width: 250px;
+    display: flex;
+    justify-content: center; /* Центрирование содержимого по горизонтали */
+}
+.left-site img {
+    padding-right: 45px;
+    cursor: pointer;
+}
+.middle-site {
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1;
+    height: 85px;
+}
+
+.middle-site p {
+    font-size: 16px;
+    font-family: Roboto, Arial;
+    color: white;
+    padding-inline: 25px;
+    padding-block: 33px;
+    cursor: pointer;
+}
+
+.middle-site p:hover {
+    background-color: rgb(20, 19, 19);
+    transition: 150ms;
+}
+
+.right-site {
+    width: 130px;
+    display: flex;
+    justify-content: center;
+    /* Центрирование содержимого по горизонтали */
+}
+.right-site img {
+    padding-left: 20px;
+    cursor: pointer;
+}

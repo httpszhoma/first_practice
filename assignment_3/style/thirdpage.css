@@ -1,0 +1,79 @@
+.third-page {
+    display: flex;
+    width: 100%;
+    gap: 10%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.head-element {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+.head-element .left-site {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    justify-content: center;
+}
+
+.head-element .right-site button {
+    margin-block: 20%;
+}
+
+.right-site .our-service {
+    color: #191919;
+    border-color: #191919;
+}
+
+.right-site .get-quote {
+    padding-inline: 50px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    width: 80%;
+    gap: 5%;
+}
+
+.grid-item {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.grid-item img {
+    width: 70px;
+}
+.grid-item .lorem-text{
+    font-family: "Barlow";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+
+    color: #605e5d;
+
+}
+
+.grid-item .learn-more {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between the square and the text */
+}
+
+.square {
+    width: 20px;
+    height: 20px;
+    background-color: black; /* Adjust to match the color of the square */
+}
+
+.text {
+    font-size: 16px; /* Adjust font size */
+    color: black; /* Adjust text color */
+}
+
