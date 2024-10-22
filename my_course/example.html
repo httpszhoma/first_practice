@@ -1,49 +1,99 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
-        <title>Flexbox Practice</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Simple To-Do List</title>
+        <style>
+            /* Simple styles */
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f4f4f4;
+                margin: 0;
+                padding: 20px;
+            }
 
-      
+            #todo-container {
+                max-width: 400px;
+                margin: 0 auto;
+                background-color: #fff;
+                padding: 20px;
+                border-radius: 8px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+
+            input[type="text"] {
+                width: 75%;
+                padding: 10px;
+                margin-right: 10px;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+            }
+
+            button {
+                padding: 10px;
+                border: none;
+                background-color: #28a745;
+                color: white;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+
+            button:hover {
+                background-color: #218838;
+            }
+
+            ul {
+                list-style: none;
+                padding: 0;
+            }
+
+            li {
+                padding: 10px;
+                background-color: #eee;
+                margin-bottom: 10px;
+                border-radius: 4px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+
+            li button {
+                background-color: #dc3545;
+            }
+
+            li button:hover {
+                background-color: #c82333;
+            }
+        </style>
     </head>
     <body>
-      <button onclick="
-        console.log(`Cart quantity:  ${cartQuantity}`);
-        "
-      >Show Quantity</button>
-      <button
-      onclick="
-      cartQuantity = cartQuantity+1;
-      console.log(`Cart quantity:  ${cartQuantity}`);
+        <div id="todo-container">
+            <h2>To-Do List</h2>
+            <input type="text" id="taskInput" placeholder="Add a new task..." />
+            <button id="addTaskBtn">Add Task</button>
 
-      "
-      >Add to Cart</button>
-      <button
-      onclick="
-      cartQuantity = cartQuantity+2;
-      console.log(`Cart quantity:  ${cartQuantity}`);
+            <ul id="taskList">
+                <script>
+                    for (const element of object) {
+                    }
+                </script>
+            </ul>
+        </div>
 
-       "
-      >+2</button>
-      <button
-      onclick="
-      cartQuantity = cartQuantity+3;
-      console.log(`Cart quantity:  ${cartQuantity}`);
+        <script>
+            let arr = [90,120,45,67,78,34,100,90]
+            
+                for(let i = arr.length-1;i>=arr.length-3;i--){
+                 console.log(arr[i]); 
 
-      "
-      >+3</button>
-      <button
-      onclick="
-      cartQuantity = 0;
-      console.log(`Cart rested cart quantity:  ${cartQuantity}`);
-
-      "
-      >Rest Cart</button>
-      <script>
-        let cartQuantity = 0;
-
-      </script>
-      
+              }
 
 
+
+          
+
+          
+        </script>
     </body>
 </html>
